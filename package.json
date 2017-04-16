@@ -19,12 +19,12 @@
     "sensors",
     "raspberrypi"
   ],
-  "author": "Tommi Laukkanen",
+  "author": "Tommi Laukkanen (https://github.com/tlaukkanen)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/tlaukkanen/kotibot/issues"
+    "url": "https://github.com/tlaukkanen/kotibot-server/issues"
   },
-  "homepage": "https://github.com/tlaukkanen/kotibot#readme",
+  "homepage": "https://github.com/tlaukkanen/kotibot-server#readme",
   "dependencies": {
     "arangojs": "^5.6.0",
     "hapi": "^16.1.1"
