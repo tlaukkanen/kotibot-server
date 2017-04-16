@@ -65,6 +65,23 @@ server.route({
 
 });
 
+server.route({
+  method: 'GET',
+  path: '/current',
+  handler: function(request, reply) {
+    console.log('Loading latest measurement');
+    var query = 'FOR doc IN measurements ' +
+      'SORT doc._key DESC ' +
+      'LIMIT 0, 1 ' +
+      'RETURN doc';
+    db.query( query ).then(cursor=>{
+      var results = cursor.next();
+      return reply(results);
+    });
+
+  }
+})
+
 // Start server
 server.start((err)=>{
   if(err) {
