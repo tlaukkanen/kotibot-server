@@ -1,0 +1,32 @@
+{
+  "name": "kotibot-server",
+  "version": "1.0.0",
+  "description": "Server as backbone for KotiBot home automation and monitoring.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlaukkanen/kotibot-server.git"
+  },
+  "keywords": [
+    "home",
+    "automation",
+    "chatbot",
+    "bot",
+    "iot",
+    "sensors",
+    "raspberrypi"
+  ],
+  "author": "Tommi Laukkanen",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/tlaukkanen/kotibot/issues"
+  },
+  "homepage": "https://github.com/tlaukkanen/kotibot#readme",
+  "dependencies": {
+    "arangojs": "^5.6.0",
+    "hapi": "^16.1.1"
+  }
+}
