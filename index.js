@@ -1,5 +1,3 @@
-'use strict';
-
 const Hapi = require('hapi');
 var arangojs = require('arangojs');
 var arangoConfig = {

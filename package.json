@@ -4,7 +4,8 @@
   "description": "Server as backbone for KotiBot home automation and monitoring.",
   "main": "index.js",
   "scripts": {
-    "test": "lab ./test"
+    "test": "lab ./test",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,10 @@
   "dependencies": {
     "arangojs": "^5.6.0",
     "hapi": "^16.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
